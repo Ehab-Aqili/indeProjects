@@ -12,10 +12,9 @@ import Printer from "./printer-1599-svgrepo-com.svg";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-light text-center text-lg-start pt-5" id="bg__page">
-        
+      <footer className="bg-light text-center text-lg-start" > 
         <section
-          className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+          className="d-flex align-items-center justify-content-center justify-content-lg-between border-bottom pt-3 px-4"
           id="bg__page"
         >
           <div className="me-5 d-none d-lg-block">
@@ -57,10 +56,10 @@ const Footer = () => {
             </Link>
           </div>
         </section>
-        <div className="container-flued p-4" id="bg__page">
-          <div className="row" >
-            <div className="col-xl-4 mb-4 mb-md-0 ">
-              <h5 className="text-uppercase">About Us</h5>
+        <div className="container-flued pt-4 px-4" id="bg__page">
+          <div className="row">
+            <div className="col-xl-4 mb-4 mb-md-0">
+              <h5 className="text-uppercase" >About Us</h5>
               <p className="px-3">
                 Welcome to NutriChif! We're passionate about nourishing your
                 body with delicious, wholesome food. Join us on a flavorful
@@ -69,7 +68,7 @@ const Footer = () => {
               </p>
             </div>
 
-            <div className="col-xl-4 mb-4 mb-md-0 pb-5 ">
+            <div className="col-xl-4">
               <h6 className="text-uppercase fw-bold mb-4">Useful links</h6>
               <p>
                 <Link to="#!" className="text-reset">
@@ -92,7 +91,7 @@ const Footer = () => {
                 </Link>
               </p>
             </div>
-            <div className="col-xl-4 mb-md-0 mb-4">
+            <div className="col-xl-4">
               <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
               <p>
                 <i className="fas fa-home me-3 text-secondary">

@@ -20,8 +20,8 @@ const Cards = (props) => {
   );
 
   return (
-    <main id="bg__page">
-      <body>
+    <body className="py-5">
+      <main>
         <div className="container">
           <div className="row">
             {filteredMeals.map((meal) => (
@@ -49,8 +49,8 @@ const Cards = (props) => {
             ))}
           </div>
         </div>
-      </body>
-    </main>
+      </main>
+    </body>
   );
 };
 

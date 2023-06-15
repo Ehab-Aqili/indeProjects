@@ -86,7 +86,7 @@ const MealsPage = () => {
           </div>
         </nav>
       </header>
-      <body>
+      <body className="pt-5">
         <div className="container">
           <div className="row py-5 ">
             <div className="col-lg-4 col-sm-12">

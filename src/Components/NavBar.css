@@ -1,3 +1,4 @@
+
 #bg__page{
     background-color: #FBF6F0;
     height: 100%;
@@ -5,8 +6,10 @@
 
 
 #edit__nav {
-    background-color: #FFA45B;
+    background-color: #f7862a;
 }
+  /* background-color: #FFA45B; */
+
 
 #change__link {
     color: #FBF6F0;
@@ -49,9 +52,10 @@
     padding: 0.5em 1em;
     outline: none;
     border: none;
-    background-color: #FFA45B;
+    background-color: #f7862a;
   }
   
+
   #bg__btn:hover {
     cursor: pointer;
     animation: jelly 0.5s;
@@ -75,7 +79,7 @@
     }
   }
 
-  #img__info__bg{
+  #img__info__bg {
     width:100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
     border-radius: 20px;
@@ -86,5 +90,17 @@
 }
 
 #bg__footer{
-    background: #FFA45B;
+    background: #f7862a;
+    margin-top: -20px;
+}
+
+#about__us{
+  padding: 50px 150px;
+  height: 100vh;
+}
+
+
+#bg__img__aboutus{
+  background-size: cover;
+  background-image: url("BGAboutUs.avif");
 }
