@@ -73,20 +73,20 @@ const Home = () => {
               <div className="carousel-item active" data-bs-interval="1000">
                 <img
                   src={SliderOne}
-                  className="d-block w-100"
+                  className="d-block w-100 object-fit-cover"
                   alt="#"
                   style={{ height: "500px" }}
                 />
               </div>
-              <div className="carousel-item active" data-bs-interval="1000">
+              <div className="carousel-item  " data-bs-interval="1000">
                 <img
                   src={SliderTwo}
-                  className="d-block w-100"
+                  className="d-block w-100 "
                   alt="#"
                   style={{ height: "500px" }}
                 />
               </div>
-              <div className="carousel-item active">
+              <div className="carousel-item ">
                 <img
                   src={SliderThree}
                   className="d-block w-100"
@@ -224,8 +224,8 @@ const Home = () => {
           </div>
         </div>
         <div className="Container p-5" id="bg__img__aboutus" >
-          <h2 className="d-flex justify-content-center" style={{color: "#fff"}}>About Us</h2>
-        <h6 className="d-flex justify-content-center text-center" id="about__us" style={{lineHeight: "2", color: "#fff"}}> 
+          <h1 className="d-flex justify-content-center" style={{color: "#fff"}}>About Us</h1>
+        <h5 className="d-flex justify-content-center text-center" id="about__us" style={{lineHeight: "2", color: "#fff"}}> 
             Welcome to NutriChif, your ultimate destination for a delightful
             culinary experience! At NutriChif, we believe that nourishing your
             body with delicious and wholesome food is key to a vibrant and
@@ -235,7 +235,7 @@ const Home = () => {
             choices about your health and well-being. Join us on this flavorful
             journey as we empower you to achieve optimal nutrition and discover
             the joy of eating well.
-          </h6>
+          </h5>
         </div>
       </body>
     </>
