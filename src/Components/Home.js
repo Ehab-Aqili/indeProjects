@@ -7,8 +7,6 @@ import SliderThree from "./SliderThree.png";
 import ImgCards from "./CardsForHomeOne1.jpg";
 import ImgCardsTwo from "./CardsForHomeThree..jpg";
 import ImgCardsThree from "./CardsForHomeTwo.jpg";
-import AboutUsImg from "./AboutUs.avif"
-
 
 const Home = () => {
   const cardStyle = {
@@ -128,18 +126,17 @@ const Home = () => {
             </h3>
 
             {/* First Cards */}
-            <div className="d-flex gap-5">
-              <main>
-                <body>
+            <div className="row">
+              <body className="col-lg-4 col-md-6 col-sm-10">
+                <main>
                   <div className="container">
                     <div className="row">
-                      <div className="col-lg-4 col-md-6 mt-5">
+                      <div className="col-lg-4 col-md-6 col-sm-12 mt-5">
                         <div className="card" id="bg__cards" style={cardStyle}>
                           <img
                             src={ImgCards}
                             className="card-img-top"
                             alt="#"
-                            style={{ width: "286.4", height: "286.4" }}
                           />
                           <div className="card-body">
                             <h5 className="card-title">Beef Sunday Roast</h5>
@@ -156,11 +153,12 @@ const Home = () => {
                       </div>
                     </div>
                   </div>
-                </body>
-              </main>
+                </main>
+              </body>
               {/* Second Cards */}
-              <main>
-                <body>
+
+              <body className="col-lg-4 col-md-6 col-sm-10">
+                <main>
                   <div className="container">
                     <div className="row">
                       <div className="col-lg-4 col-md-6 mt-5">
@@ -169,7 +167,6 @@ const Home = () => {
                             src={ImgCardsThree}
                             className="card-img-top"
                             alt="#"
-                            style={{ width: "286.4", height: "286.4" }}
                           />
                           <div className="card-body">
                             <h5 className="card-title">
@@ -188,11 +185,13 @@ const Home = () => {
                       </div>
                     </div>
                   </div>
-                </body>
-              </main>
+                </main>
+              </body>
+
               {/* There'd Cards */}
-              <main>
-                <body>
+
+              <body className="col-lg-4 col-md-6 col-sm-10">
+                <main>
                   <div className="container">
                     <div className="row">
                       <div className="col-lg-4 col-md-6 mt-5">
@@ -201,7 +200,6 @@ const Home = () => {
                             src={ImgCardsTwo}
                             className="card-img-top"
                             alt="#"
-                            style={{ width: "286.4", height: "286.4" }}
                           />
                           <div className="card-body">
                             <h5 className="card-title">Chick-Fil-A Sandwich</h5>
@@ -218,14 +216,23 @@ const Home = () => {
                       </div>
                     </div>
                   </div>
-                </body>
-              </main>
+                </main>
+              </body>
             </div>
           </div>
         </div>
-        <div className="Container p-5" id="bg__img__aboutus" >
-          <h1 className="d-flex justify-content-center" style={{color: "#fff"}}>About Us</h1>
-        <h5 className="d-flex justify-content-center text-center" id="about__us" style={{lineHeight: "2", color: "#fff"}}> 
+        <div className="Container p-5 p-sm-0" id="bg__img__aboutus">
+          <h1
+            className="d-flex justify-content-center"
+            style={{ color: "#fff" }}
+          >
+            About Us
+          </h1>
+          <h5
+            className="d-flex justify-content-center text-center"
+            id="about__us"
+            style={{ lineHeight: "2", color: "#fff" }}
+          >
             Welcome to NutriChif, your ultimate destination for a delightful
             culinary experience! At NutriChif, we believe that nourishing your
             body with delicious and wholesome food is key to a vibrant and

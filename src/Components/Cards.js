@@ -12,7 +12,8 @@ const Cards = (props) => {
   }, []);
 
   const cardStyle = {
-    width: "20rem",
+    width: "90%",
+    margin: "0px auto",
   };
 
   const filteredMeals = meals.filter((meal) =>
